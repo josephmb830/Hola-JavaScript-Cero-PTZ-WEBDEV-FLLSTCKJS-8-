@@ -25,4 +25,18 @@ let copiaDepanes = panes
 
 panes.push('🥨​')
 
+copiaDepanes.push('🍞')
+
 console.log(panes, copiaDepanes)
+
+// Paso por referencia tipo de dato completo
+
+let frutos = {
+    naranja: '🍊'
+}
+
+let vegetales = frutas
+
+vegetales.naranja = '🥦'
+
+console.log(frutos)
